@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(start \"C:\\\\Users\\\\fahad\\\\OneDrive\\\\Desktop\\\\Web Dev\\\\Portfolio\\\\index.html\")"
+    ]
+  }
+}

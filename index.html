@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fahad Afzal Hussain — Full-Stack Developer</title>
+  <meta name="description" content="Full-stack developer building scalable backend systems with Python, FastAPI and Flask. B.Tech IT, BVCOE. Open to internships 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="cursor-glow"></div>
+<div id="scroll-progress"></div>
+
+<!-- ── NAV ── -->
+<nav id="nav">
+  <div class="nav-wrap">
+    <a href="#hero" class="nav-brand">Fahad<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#journey">Journey</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <a href="assets/resume.pdf" download class="resume-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Resume
+      </a>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+<!-- ═══ HERO ═══ -->
+<section id="hero">
+  <div class="hero-wrap">
+
+    <div class="hero-left">
+      <div class="photo-card">
+        <div class="photo-frame">
+          <img src="assets/img/profile.jpg" alt="Fahad Afzal Hussain" class="profile-img"
+               onerror="this.parentNode.classList.add('no-img')">
+        </div>
+        <div class="photo-meta">
+          <strong>Fahad Afzal Hussain</strong>
+          <span>B.Tech IT &middot; BVCOE &middot; <em class="yr">2028</em></span>
+        </div>
+        <div class="hero-stats">
+          <div class="hs"><span class="hs-n">4+</span><span class="hs-l">Projects</span></div>
+          <div class="hs-div"></div>
+          <div class="hs"><span class="hs-n">4+</span><span class="hs-l">Hackathons</span></div>
+          <div class="hs-div"></div>
+          <div class="hs"><span class="hs-n">8.47</span><span class="hs-l">CGPA</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <span class="avail-badge"><span class="badge-dot"></span>Open to Internships — 2026</span>
+
+      <h1 class="hero-heading">
+        <span class="h-line1">Full-Stack</span>
+        <span class="h-line2"><em>Developer</em></span>
+      </h1>
+
+      <p class="hero-sub">
+        I build thoughtful web products that blend solid backend architecture with a polished user experience—turning ideas into apps people actually enjoy using.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn-gold">View My Work &rarr;</a>
+        <a href="mailto:hussainfahadafzal@gmail.com" class="btn-bordered">Let's Talk</a>
+        <a href="#about" class="btn-ghost">About Me &rarr;</a>
+      </div>
+
+      <div class="skill-tags">
+        <span>FastAPI</span><span>Flask</span><span>Java DSA</span>
+        <span>Python</span><span>PostgreSQL</span><span>REST APIs</span>
+      </div>
+
+      <div class="hero-terminal">
+        <div class="term-titlebar">
+          <div class="term-dots"><span></span><span></span><span></span></div>
+          <span class="term-name">fahad@dev: ~</span>
+        </div>
+        <div class="term-body">
+          <p><span class="t-p">~</span> <span class="t-cmd">whoami</span></p>
+          <p class="t-out">fahad afzal hussain &nbsp;&middot;&nbsp; backend developer</p>
+          <p class="t-gap"></p>
+          <p><span class="t-p">~</span> <span class="t-cmd">cat status.txt</span></p>
+          <p class="t-out"><span class="t-ok">&#10003;</span> open to internships &nbsp;&middot;&nbsp; 2026</p>
+          <p class="t-gap"></p>
+          <p><span class="t-p">~</span> <span class="t-cursor">&#9611;</span></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══ ABOUT ═══ -->
+<section id="about">
+  <div class="sec-wrap">
+    <div class="sec-head" data-num="01">
+      <span class="sec-tag">// about me</span>
+      <h2 class="sec-title">A Little About Me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I'm a third-year B.Tech IT student at Bharati Vidyapeeth College of Engineering, New Delhi. I focus on building backend APIs and full-stack systems that work reliably in production.</p>
+        <p>I've shipped a live DSA revision tracker solo, led a team to the top 50 at Smart India Hackathon 2025, and built a financial fraud detection system from scratch in 24 hours at a Physics Wallah hackathon.</p>
+        <p>Currently deepening my DSA in Java (GFG self-paced), recently shipped PocketPal &mdash; a full-stack AI-powered finance PWA &mdash; and actively seeking backend or full-stack internship opportunities in 2026.</p>
+        <div class="about-links">
+          <a href="https://github.com/hussainfahadafzal" target="_blank" rel="noopener noreferrer" class="alink">GitHub &rarr;</a>
+          <a href="https://www.linkedin.com/in/fahad-afzal-hussain-1bb8ab309" target="_blank" rel="noopener noreferrer" class="alink">LinkedIn &rarr;</a>
+          <a href="https://www.geeksforgeeks.org/profile/hussainfahadafzal" target="_blank" rel="noopener noreferrer" class="alink">GeeksforGeeks &rarr;</a>
+        </div>
+      </div>
+      <div class="about-cards">
+        <div class="abt-card" data-delay="0">
+          <span class="abt-icon">&#127891;</span>
+          <div>
+            <div class="abt-title">B.Tech IT &mdash; BVCOE</div>
+            <div class="abt-sub">3rd Year &nbsp;&middot;&nbsp; CGPA 8.47 &nbsp;&middot;&nbsp; New Delhi</div>
+          </div>
+        </div>
+        <div class="abt-card" data-delay="1">
+          <span class="abt-icon">&#128188;</span>
+          <div>
+            <div class="abt-title">Open to Internships</div>
+            <div class="abt-sub">Backend / Full-stack &nbsp;&middot;&nbsp; 2026</div>
+          </div>
+        </div>
+        <div class="abt-card" data-delay="2">
+          <span class="abt-icon">&#9989;</span>
+          <div>
+            <div class="abt-title">Just Shipped</div>
+            <div class="abt-sub">PocketPal &mdash; Live at pocketpal4u.vercel.app</div>
+          </div>
+        </div>
+        <div class="abt-card" data-delay="3">
+          <span class="abt-icon">&#128218;</span>
+          <div>
+            <div class="abt-title">Currently Learning</div>
+            <div class="abt-sub">DSA in Java &nbsp;&middot;&nbsp; GFG Self-Paced Course</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PROJECTS ═══ -->
+<section id="projects">
+  <div class="sec-wrap">
+    <div class="sec-head" data-num="02">
+      <span class="sec-tag">// projects</span>
+      <h2 class="sec-title">What I've Built</h2>
+    </div>
+
+    <div class="proj-list">
+
+      <div class="proj-item" data-pi="0">
+        <div class="pi-text">
+          <div class="pi-meta">
+            <span class="pi-num">01</span>
+            <span class="pi-tag">Solo project &nbsp;&middot;&nbsp; Shipped 2026 &nbsp;&middot;&nbsp; Main Project</span>
+          </div>
+          <h3 class="pi-title">PocketPal</h3>
+          <p class="pi-desc">A polished, AI-powered finance PWA I built solo to make money habits feel simple, smart, and motivating. It brings together expense tracking, smart budgets, split bills, savings jars, streaks, UPI flows, and visual analytics in one seamless web experience.</p>
+          <div class="pi-stack">
+            <span>React</span><span>FastAPI</span><span>PostgreSQL</span><span>Vercel</span>
+          </div>
+          <div class="pi-links">
+            <a href="https://pocketpal4u.vercel.app/login" target="_blank" rel="noopener noreferrer" class="plink-live">Live Demo &rarr;</a>
+            <a href="https://github.com/hussainfahadafzal/PocketPal" target="_blank" rel="noopener noreferrer" class="plink-gh">GitHub &rarr;</a>
+          </div>
+        </div>
+        <div class="pi-img-wrap">
+          <div class="pi-img">
+            <img src="assets/img/pocketpal.jpeg" alt="PocketPal" loading="lazy">
+            <div class="pi-img-fb">PocketPal</div>
+            <span class="pi-badge live">&#9679; Live</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-item" data-pi="1">
+        <div class="pi-text">
+          <div class="pi-meta">
+            <span class="pi-num">02</span>
+            <span class="pi-tag">RIFT '26 &nbsp;&middot;&nbsp; Physics Wallah &nbsp;&middot;&nbsp; Team BIT BY BIT</span>
+          </div>
+          <h3 class="pi-title">Money Muling Detection Engine</h3>
+          <p class="pi-desc">Financial fraud detection system built in 24 hours. SCC algorithms (Kosaraju/Tarjan) detect fraud rings; fan-in/fan-out smurfing analysis; suspicion scoring 0–100 per node. My role: Flask API, algorithm integration, and Render deployment.</p>
+          <div class="pi-stack">
+            <span>Python</span><span>Flask</span><span>NetworkX</span><span>Pandas</span><span>Render</span>
+          </div>
+          <div class="pi-links">
+            <a href="https://moneymulingdetectionsystem.onrender.com/" target="_blank" rel="noopener noreferrer" class="plink-live">Live Demo &rarr;</a>
+            <a href="https://github.com/hussainfahadafzal/Money-Muling" target="_blank" rel="noopener noreferrer" class="plink-gh">GitHub &rarr;</a>
+          </div>
+        </div>
+        <div class="pi-img-wrap">
+          <div class="pi-img">
+            <img src="assets/img/moneymuling.png" alt="Money Muling Detection Engine" loading="lazy">
+            <div class="pi-img-fb">Money Muling Detection Engine</div>
+            <span class="pi-badge live">&#9679; Live</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-item" data-pi="2">
+        <div class="pi-text">
+          <div class="pi-meta">
+            <span class="pi-num">03</span>
+            <span class="pi-tag">Solo project &nbsp;&middot;&nbsp; Shipped January 2026</span>
+          </div>
+          <h3 class="pi-title">Your_BookMark</h3>
+          <p class="pi-desc">Full-stack DSA revision tracker built and deployed solo. Organise questions by Arrays, Graphs, DP, PYQs. Save notes, track mistakes, monitor progress. Flask auth, clean REST API, normalised SQLite schema. Live on Render.</p>
+          <div class="pi-stack">
+            <span>Flask</span><span>SQLite</span><span>SQLAlchemy</span><span>REST APIs</span>
+          </div>
+          <div class="pi-links">
+            <a href="https://your-bookmark.onrender.com" target="_blank" rel="noopener noreferrer" class="plink-live">Live Demo &rarr;</a>
+            <a href="https://github.com/hussainfahadafzal/Your_BookMark" target="_blank" rel="noopener noreferrer" class="plink-gh">GitHub &rarr;</a>
+          </div>
+        </div>
+        <div class="pi-img-wrap">
+          <div class="pi-img">
+            <img src="assets/img/bookmark.png" alt="Your_BookMark" loading="lazy">
+            <div class="pi-img-fb">Your_BookMark</div>
+            <span class="pi-badge live">&#9679; Live</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-item" data-pi="3">
+        <div class="pi-text">
+          <div class="pi-meta">
+            <span class="pi-num">04</span>
+            <span class="pi-tag">Smart India Hackathon 2025 &nbsp;&middot;&nbsp; Team Fusion-7X &nbsp;&middot;&nbsp; Active development</span>
+          </div>
+          <h3 class="pi-title">CampusMate</h3>
+          <p class="pi-desc">Language-agnostic multilingual EdTech chatbot. NLP + conversational AI bridging language barriers in education. Led as Team Leader &mdash; top 50 of 100+ teams in Smart Education category.</p>
+          <div class="pi-stack">
+            <span>NLP</span><span>Conv. AI</span><span>Python</span><span>EdTech</span>
+          </div>
+          <div class="pi-links">
+            <a href="https://github.com/hussainfahadafzal" target="_blank" rel="noopener noreferrer" class="plink-gh">GitHub &rarr;</a>
+          </div>
+        </div>
+        <div class="pi-img-wrap">
+          <div class="pi-img">
+            <img src="assets/img/campusmate.png" alt="CampusMate" loading="lazy">
+            <div class="pi-img-fb">CampusMate</div>
+            <span class="pi-badge wip">&#9679; In Progress</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ JOURNEY ═══ -->
+<section id="journey">
+  <div class="sec-wrap">
+    <div class="sec-head" data-num="03">
+      <span class="sec-tag">// timeline</span>
+      <h2 class="sec-title">My Journey</h2>
+    </div>
+    <div class="timeline">
+
+      <div class="tl-item" data-i="0">
+        <div class="tl-left"><span class="tl-date">Aug<br>2024</span></div>
+        <div class="tl-mid"><div class="tl-dot"></div><div class="tl-spine"></div></div>
+        <div class="tl-right">
+          <span class="tl-badge">Education</span>
+          <h3>Joined BVCOE &mdash; B.Tech IT</h3>
+          <p>Started college at Bharati Vidyapeeth College of Engineering, New Delhi. Learned frontend fundamentals &mdash; HTML, CSS, JavaScript. Built first web projects from scratch.</p>
+        </div>
+      </div>
+
+      <div class="tl-item" data-i="1">
+        <div class="tl-left"><span class="tl-date">Late<br>2024</span></div>
+        <div class="tl-mid"><div class="tl-dot"></div><div class="tl-spine"></div></div>
+        <div class="tl-right">
+          <span class="tl-badge">SIH 2024</span>
+          <h3>Smart India Hackathon 2024</h3>
+          <p>Cleared the college internal round &mdash; top 50 of 100+ teams. Built an Anti-Doping Awareness System with an AI chatbot. First real taste of building under competition pressure.</p>
+        </div>
+      </div>
+
+      <div class="tl-item" data-i="2">
+        <div class="tl-left"><span class="tl-date">2025</span></div>
+        <div class="tl-mid"><div class="tl-dot"></div><div class="tl-spine"></div></div>
+        <div class="tl-right">
+          <span class="tl-badge">Growth</span>
+          <h3>Backend Development &amp; DSA</h3>
+          <p>Moved into backend engineering. Started Flask and FastAPI, built first production-grade REST APIs with PostgreSQL. Enrolled in GFG's self-paced DSA course in Java.</p>
+        </div>
+      </div>
+
+      <div class="tl-item" data-i="3">
+        <div class="tl-left"><span class="tl-date">Late<br>2025</span></div>
+        <div class="tl-mid"><div class="tl-dot"></div><div class="tl-spine"></div></div>
+        <div class="tl-right">
+          <span class="tl-badge">Team Leader &nbsp;&middot;&nbsp; SIH 2025</span>
+          <h3>Smart India Hackathon 2025</h3>
+          <p>Led Team Fusion-7X. Proposed CampusMate &mdash; a multilingual EdTech chatbot using NLP and conversational AI. Selected among top 50 of 100+ teams, Smart Education theme.</p>
+        </div>
+      </div>
+
+
+      <div class="tl-item" data-i="4">
+        <div class="tl-left"><span class="tl-date">Feb<br>2026</span></div>
+        <div class="tl-mid"><div class="tl-dot"></div><div class="tl-spine"></div></div>
+        <div class="tl-right">
+          <span class="tl-badge">RIFT '26 &nbsp;&middot;&nbsp; 24H</span>
+          <h3>RIFT Hackathon &mdash; Physics Wallah</h3>
+          <p>Picked the hardest problem: Financial Crime Detection. Built the Money Muling Detection Engine with SCC algorithms and smurfing analysis. Team BIT BY BIT — fully deployed in 24h.</p>
+        </div>
+      </div>
+
+      <div class="tl-item" data-i="5">
+        <div class="tl-left"><span class="tl-date">Mar<br>2026</span></div>
+        <div class="tl-mid"><div class="tl-dot"></div><div class="tl-spine"></div></div>
+        <div class="tl-right">
+          <span class="tl-badge">Shipped</span>
+          <h3>Your_BookMark &mdash; Live</h3>
+          <p>Designed, built, and deployed a full-stack DSA revision tracker solo. Flask auth, normalised SQLite schema, clean REST API, live on Render at your-bookmark.onrender.com.</p>
+        </div>
+      </div>
+
+      <div class="tl-item" data-i="6">
+        <div class="tl-left"><span class="tl-date">Jun<br>2026</span></div>
+        <div class="tl-mid"><div class="tl-dot"></div><div class="tl-spine"></div></div>
+        <div class="tl-right">
+          <span class="tl-badge">Built &amp; Shipped</span>
+          <h3>PocketPal &mdash; Built from Scratch</h3>
+          <p>Built PocketPal from idea to launch as a solo project—an AI-powered finance PWA designed to make everyday money habits feel smoother, smarter, and more motivating.</p>
+          <ul class="tl-highlights">
+            <li>Expense tracking that feels effortless</li>
+            <li>Smart budgets, split bills, and savings jars</li>
+            <li>Streaks, analytics, and UPI flows in one polished experience</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item" data-i="7">
+        <div class="tl-left"><span class="tl-date">Now</span></div>
+        <div class="tl-mid"><div class="tl-dot now"></div></div>
+        <div class="tl-right">
+          <span class="tl-badge now">Active</span>
+          <h3>Deepening Everything</h3>
+          <p>DSA in Java via GFG. Continuing to improve PocketPal and exploring backend and full-stack internship opportunities for 2026.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SKILLS ═══ -->
+<section id="skills">
+  <div class="sec-wrap">
+    <div class="sec-head" data-num="04">
+      <span class="sec-tag">// tech stack</span>
+      <h2 class="sec-title">Skills</h2>
+    </div>
+
+    <div class="code-skills" id="codeSkills">
+      <div class="csk-bar">
+        <div class="csk-dots"><span></span><span></span><span></span></div>
+        <span class="csk-fname">stack.js</span>
+        <span class="csk-lang">JavaScript</span>
+      </div>
+      <div class="csk-body">
+        <p class="csk-line-open"><span class="ck-kw">const</span> <span class="ck-var">stack</span> <span class="ck-op">=</span> <span class="ck-br">{</span></p>
+
+        <div class="csk-row" data-d="0">
+          <span class="ck-prop">  languages</span><span class="ck-colon">:</span>&nbsp;&nbsp;[
+          <span class="csk-tag py">&ldquo;Python&rdquo;</span>
+          <span class="csk-tag java">&ldquo;Java&rdquo;</span>
+          <span class="csk-tag js">&ldquo;JavaScript&rdquo;</span>
+          <span class="csk-tag html">&ldquo;HTML/CSS&rdquo;</span>
+          ],
+        </div>
+
+        <div class="csk-row" data-d="1">
+          <span class="ck-prop">  frameworks</span><span class="ck-colon">:</span>&nbsp;[
+          <span class="csk-tag rn">&ldquo;React&rdquo;</span>
+          <span class="csk-tag fastapi">&ldquo;FastAPI&rdquo;</span>
+          <span class="csk-tag flask">&ldquo;Flask&rdquo;</span>
+          ],
+        </div>
+
+        <div class="csk-row" data-d="2">
+          <span class="ck-prop">  databases</span><span class="ck-colon">:</span>&nbsp;&nbsp;[
+          <span class="csk-tag pg">&ldquo;MySQL&rdquo;</span>
+          <span class="csk-tag pg">&ldquo;PostgreSQL&rdquo;</span>
+          <span class="csk-tag sqlite">&ldquo;SQLite&rdquo;</span>
+          <span class="csk-tag orm">&ldquo;SQLAlchemy&rdquo;</span>
+          ],
+        </div>
+
+        <div class="csk-row" data-d="3">
+          <span class="ck-prop">  libraries</span><span class="ck-colon">:</span>&nbsp;&nbsp;[
+          <span class="csk-tag nx">&ldquo;NumPy&rdquo;</span>
+          <span class="csk-tag pd">&ldquo;Pandas&rdquo;</span>  
+          ],
+        </div>
+
+        <div class="csk-row" data-d="4">
+          <span class="ck-prop">  concepts</span><span class="ck-colon">:</span>&nbsp;&nbsp;&nbsp;[
+          <span class="csk-tag api">&ldquo;REST APIs&rdquo;</span>
+          <span class="csk-tag dsa">&ldquo;DSA&rdquo;</span>
+          <span class="csk-tag oop">&ldquo;OOP&rdquo;</span>
+          ],
+        </div>
+
+        <div class="csk-row" data-d="5">
+          <span class="ck-prop">  tools</span><span class="ck-colon">:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[
+          <span class="csk-tag git">&ldquo;Git&rdquo;</span>
+          <span class="csk-tag gh">&ldquo;GitHub&rdquo;</span>
+          <span class="csk-tag rd">&ldquo;Render&rdquo;</span>
+          ],
+        </div>
+
+        <p class="csk-line-close"><span class="ck-br">}</span><span class="ck-sc">;</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ HIGHLIGHTS ═══ -->
+<section id="highlights">
+  <div class="sec-wrap">
+    <div class="sec-head" data-num="04">
+      <span class="sec-tag">// focus</span>
+      <h2 class="sec-title">What I’m Building Right Now</h2>
+    </div>
+    <div class="highlight-grid">
+      <article class="highlight-card">
+        <span class="highlight-icon">⚡</span>
+        <h3>Real product thinking</h3>
+        <p>I care about creating products that feel smooth, useful, and genuinely enjoyable to use.</p>
+      </article>
+      <article class="highlight-card">
+        <span class="highlight-icon">🧠</span>
+        <h3>Strong backend foundations</h3>
+        <p>From APIs to databases, I focus on building systems that are reliable and scalable.</p>
+      </article>
+      <article class="highlight-card">
+        <span class="highlight-icon">🚀</span>
+        <h3>Momentum and growth</h3>
+        <p>Right now I’m sharpening Java DSA while shipping polished web experiences and learning fast.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CONTACT ═══ -->
+<section id="contact">
+  <div class="sec-wrap">
+    <div class="contact-box">
+      <span class="sec-tag">// get in touch</span>
+      <h2 class="contact-heading">Open to good work.<br><span class="gold-text"><em>Let's talk<span class="ct-cursor">_</span></em></span></h2>
+      <p class="contact-sub">Looking for backend or full-stack internship opportunities in 2026. Happy to discuss interesting problems and collaborative projects.</p>
+      <div class="contact-btns">
+        <a href="mailto:hussainfahadafzal@gmail.com" class="contact-email-btn">
+          hussainfahadafzal@gmail.com
+        </a>
+        <a href="https://wa.me/917061023061" target="_blank" rel="noopener noreferrer" class="contact-wa-btn" title="+91 7061023061">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+      </div>
+      <div class="contact-socials">
+        <a href="https://github.com/hussainfahadafzal" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/fahad-afzal-hussain-1bb8ab309" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://www.geeksforgeeks.org/profile/hussainfahadafzal" target="_blank" rel="noopener noreferrer">GeeksforGeeks</a>
+      </div>
+      <p class="footer-note">Designed &amp; built by Fahad Afzal Hussain.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>
