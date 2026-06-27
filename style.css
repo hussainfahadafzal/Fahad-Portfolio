@@ -183,15 +183,15 @@ body.light .nav-links a:hover { background: var(--bg2); }
 body.light .theme-btn { background: rgba(0,0,0,0.04); }
 .theme-btn svg {
   width: 16px; height: 16px;
-  display: block;
+  display: none;
   stroke: currentColor;
   stroke-width: 2;
   flex-shrink: 0;
 }
 
 /* dark = default (no class), light = body.light */
-.icon-sun  { display: none; }
 .icon-moon { display: block; }
+.icon-sun  { display: none; }
 body.light .icon-sun  { display: block; }
 body.light .icon-moon { display: none; }
 
