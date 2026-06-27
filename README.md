@@ -2,6 +2,8 @@
 
 A modern, responsive personal portfolio website showcasing my projects, journey, and technical interests as a full-stack developer.
 
+🌐 Live Demo: https://fahadafzalhussain.vercel.app/
+
 ## Features
 - Clean and modern UI
 - Responsive layout for desktop and mobile
@@ -36,6 +38,7 @@ http://localhost:8000
 ## Connect
 - GitHub: https://github.com/hussainfahadafzal
 - LinkedIn: https://www.linkedin.com/in/fahad-afzal-hussain-1bb8ab309
+- Portfolio: https://fahadafzalhussain.vercel.app/
 
 ## About
 I am a B.Tech IT student building full-stack applications, backend systems, and web experiences with a strong focus on performance, design, and practical problem-solving.
